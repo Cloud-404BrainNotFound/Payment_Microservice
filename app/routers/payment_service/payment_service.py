@@ -33,7 +33,7 @@ payment_router = APIRouter()
 class UserPaymentRequest(BaseModel):
     user_id: str
 class UpdatePaymentStatusRequest(BaseModel):
-    payment_id: int
+    payment_id: str
     status: str
 
 class Status(BaseModel):
