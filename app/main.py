@@ -5,10 +5,14 @@ from app.database import engine, get_db
 from app.models import  payment  # 导入所有模型
 from app.routers.payment_service import payment_router  # 导入支付相关的 router
 from fastapi.middleware.cors import CORSMiddleware
+from app.config.log import setup_logger
+from app.dependecies.logging_middleware import logging_dependency
 
 payment.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
+logger = setup_logger()
+app.middleware("http")(logging_dependency)
 
 app.add_middleware(
     CORSMiddleware,
