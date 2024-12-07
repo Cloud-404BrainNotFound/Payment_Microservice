@@ -1,0 +1,10 @@
+2024-12-07 10:01:35 - INFO - Request started - Method: POST Path: /payments
+2024-12-07 10:01:35 - INFO - Request completed - Method: POST Path: /payments Status: 404 Duration: 1.44ms
+2024-12-07 10:03:53 - INFO - Request started - Method: POST Path: /payments
+2024-12-07 10:03:53 - INFO - Request completed - Method: POST Path: /payments Status: 404 Duration: 1.43ms
+2024-12-07 10:06:28 - INFO - Request started - Method: GET Path: /docs
+2024-12-07 10:06:28 - INFO - Request completed - Method: GET Path: /docs Status: 200 Duration: 1.35ms
+2024-12-07 10:06:28 - INFO - Request started - Method: GET Path: /openapi.json
+2024-12-07 10:06:28 - INFO - Request completed - Method: GET Path: /openapi.json Status: 200 Duration: 14.94ms
+2024-12-07 10:07:30 - INFO - Request started - Method: POST Path: /payments/payments
+2024-12-07 10:07:30 - INFO - Request completed - Method: POST Path: /payments/payments Status: 422 Duration: 12.67ms
