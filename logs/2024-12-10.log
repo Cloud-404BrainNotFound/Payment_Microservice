@@ -1,0 +1,6 @@
+2024-12-10 14:52:42 - INFO - Request started - Method: HEAD Path: /core/auth/login/
+2024-12-10 14:52:42 - INFO - Request completed - Method: HEAD Path: /core/auth/login/ Status: 404 Duration: 2.18ms
+2024-12-10 19:32:11 - INFO - Request started - Method: GET Path: /docs
+2024-12-10 19:32:11 - INFO - Request completed - Method: GET Path: /docs Status: 200 Duration: 2.33ms
+2024-12-10 19:32:11 - INFO - Request started - Method: GET Path: /openapi.json
+2024-12-10 19:32:11 - INFO - Request completed - Method: GET Path: /openapi.json Status: 200 Duration: 8.99ms
